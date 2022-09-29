@@ -4,7 +4,7 @@
   "description": "Noise map generator",
   "main": "index.js",
   "scripts": {
-    "start": ""
+    "start": "parcel src/index.html"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,16 @@
   "bugs": {
     "url": "https://github.com/LuisPauloAlves/NoiseMap/issues"
   },
-  "homepage": "https://github.com/LuisPauloAlves/NoiseMap#readme"
+  "homepage": "https://github.com/LuisPauloAlves/NoiseMap#readme",
+  "dependencies": {
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "parcel": "^2.7.0",
+    "process": "^0.11.10"
+  }
 }
